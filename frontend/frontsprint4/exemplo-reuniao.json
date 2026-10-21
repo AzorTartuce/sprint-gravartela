@@ -1,0 +1,11 @@
+{
+  "titulo": "Reunião de acompanhamento - Cliente Exemplo S.A.",
+  "data": "2026-10-10",
+  "falas": [
+    { "falante": "Consultor TOTVS", "texto": "Bom dia! Como está sendo a experiência com o Protheus nas últimas semanas?" },
+    { "falante": "Cliente", "texto": "Sinceramente, estamos insatisfeitos. O sistema está com lentidão e o fechamento fiscal dá erro toda semana." },
+    { "falante": "Consultor TOTVS", "texto": "Entendo. Já abriram chamado com o suporte?" },
+    { "falante": "Cliente", "texto": "Abrimos, mas a demora é um problema. Estamos avaliando migrar para um concorrente se isso continuar." },
+    { "falante": "Cliente", "texto": "Por outro lado, temos interesse em contratar um novo módulo para as filiais, se o problema for resolvido. Podem enviar uma proposta?" }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "produto": {
+    "exemplos": 120,
+    "classes": {
+      "NENHUM": 51,
+      "Protheus": 24,
+      "RM": 23,
+      "Fluig": 22
+    },
+    "comparacao_validacao_cruzada": {
+      "LogisticRegression": {
+        "f1_macro_cv_media": 0.8785,
+        "f1_macro_cv_desvio": 0.0816
+      },
+      "ComplementNB": {
+        "f1_macro_cv_media": 0.8383,
+        "f1_macro_cv_desvio": 0.0468
+      },
+      "RandomForest": {
+        "f1_macro_cv_media": 0.6988,
+        "f1_macro_cv_desvio": 0.101
+      }
+    },
+    "modelo_escolhido": "LogisticRegression",
+    "avaliacao": "conjunto de teste (20%)",
+    "f1_macro_teste": 0.9603,
+    "relatorio_teste": {
+      "Fluig": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "NENHUM": {
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1-score": 0.9523809523809523,
+        "support": 10.0
+      },
+      "Protheus": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "RM": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 5.0
+      },
+      "accuracy": 0.9583333333333334,
+      "macro avg": {
+        "precision": 0.9772727272727273,
+        "recall": 0.95,
+        "f1-score": 0.9603174603174603,
+        "support": 24.0
+      },
+      "weighted avg": {
+        "precision": 0.962121212121212,
+        "recall": 0.9583333333333334,
+        "f1-score": 0.957010582010582,
+        "support": 24.0
+      }
+    }
+  },
+  "sentimento": {
+    "exemplos": 120,
+    "classes": {
+      "NEUTRO": 51,
+      "NEGATIVO": 40,
+      "POSITIVO": 29
+    },
+    "comparacao_validacao_cruzada": {
+      "LogisticRegression": {
+        "f1_macro_cv_media": 0.6888,
+        "f1_macro_cv_desvio": 0.137
+      },
+      "ComplementNB": {
+        "f1_macro_cv_media": 0.6888,
+        "f1_macro_cv_desvio": 0.1536
+      },
+      "RandomForest": {
+        "f1_macro_cv_media": 0.4313,
+        "f1_macro_cv_desvio": 0.0374
+      }
+    },
+    "modelo_escolhido": "LogisticRegression",
+    "avaliacao": "conjunto de teste (20%)",
+    "f1_macro_teste": 0.6313,
+    "relatorio_teste": {
+      "NEGATIVO": {
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1-score": 0.6666666666666666,
+        "support": 8.0
+      },
+      "NEUTRO": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "f1-score": 0.7272727272727273,
+        "support": 10.0
+      },
+      "POSITIVO": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
+        "support": 6.0
+      },
+      "accuracy": 0.6666666666666666,
+      "macro avg": {
+        "precision": 0.7555555555555555,
+        "recall": 0.6277777777777778,
+        "f1-score": 0.6313131313131314,
+        "support": 24.0
+      },
+      "weighted avg": {
+        "precision": 0.7277777777777777,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6502525252525252,
+        "support": 24.0
+      }
+    }
+  },
+  "churn": {
+    "exemplos": 120,
+    "classes": {
+      "0": 95,
+      "1": 25
+    },
+    "comparacao_validacao_cruzada": {
+      "LogisticRegression": {
+        "f1_macro_cv_media": 0.826,
+        "f1_macro_cv_desvio": 0.1094
+      },
+      "ComplementNB": {
+        "f1_macro_cv_media": 0.7303,
+        "f1_macro_cv_desvio": 0.1445
+      },
+      "RandomForest": {
+        "f1_macro_cv_media": 0.4418,
+        "f1_macro_cv_desvio": 0.0013
+      }
+    },
+    "modelo_escolhido": "LogisticRegression",
+    "avaliacao": "conjunto de teste (20%)",
+    "f1_macro_teste": 0.7,
+    "relatorio_teste": {
+      "0": {
+        "precision": 0.8571428571428571,
+        "recall": 0.9473684210526315,
+        "f1-score": 0.9,
+        "support": 19.0
+      },
+      "1": {
+        "precision": 0.6666666666666666,
+        "recall": 0.4,
+        "f1-score": 0.5,
+        "support": 5.0
+      },
+      "accuracy": 0.8333333333333334,
+      "macro avg": {
+        "precision": 0.7619047619047619,
+        "recall": 0.6736842105263158,
+        "f1-score": 0.7,
+        "support": 24.0
+      },
+      "weighted avg": {
+        "precision": 0.8174603174603173,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8166666666666668,
+        "support": 24.0
+      }
+    }
+  },
+  "oportunidade": {
+    "exemplos": 120,
+    "classes": {
+      "0": 93,
+      "1": 27
+    },
+    "comparacao_validacao_cruzada": {
+      "LogisticRegression": {
+        "f1_macro_cv_media": 0.7166,
+        "f1_macro_cv_desvio": 0.1542
+      },
+      "ComplementNB": {
+        "f1_macro_cv_media": 0.6664,
+        "f1_macro_cv_desvio": 0.132
+      },
+      "RandomForest": {
+        "f1_macro_cv_media": 0.4353,
+        "f1_macro_cv_desvio": 0.0074
+      }
+    },
+    "modelo_escolhido": "LogisticRegression",
+    "avaliacao": "conjunto de teste (20%)",
+    "f1_macro_teste": 0.7491,
+    "relatorio_teste": {
+      "0": {
+        "precision": 0.8636363636363636,
+        "recall": 1.0,
+        "f1-score": 0.926829268292683,
+        "support": 19.0
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1-score": 0.5714285714285714,
+        "support": 5.0
+      },
+      "accuracy": 0.875,
+      "macro avg": {
+        "precision": 0.9318181818181819,
+        "recall": 0.7,
+        "f1-score": 0.7491289198606272,
+        "support": 24.0
+      },
+      "weighted avg": {
+        "precision": 0.8920454545454546,
+        "recall": 0.875,
+        "f1-score": 0.8527874564459931,
+        "support": 24.0
+      }
+    }
+  }
+}

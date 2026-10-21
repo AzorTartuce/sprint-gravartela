@@ -1,0 +1,46 @@
+services:
+  backend:
+    build: .
+    container_name: backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # Análise de transcrições (tela do front) via serviço Python da mesma rede.
+      PYTHON_TRANSCRICAO_URL: http://python-analise:5000/analisar-transcricao
+      # Upload de reuniões (/api/analysis/upload); sobrescreve o valor do .env.
+      PYTHON_ANALISE_URL: http://python-analise:5000/analisar
+      # Origem do front servido pelo nginx abaixo.
+      CORS_ALLOWED_ORIGINS: http://localhost:*,http://127.0.0.1:*
+    depends_on:
+      python-analise:
+        condition: service_healthy
+    networks:
+      - sprintjava-net
+
+  python-analise:
+    build: ./python-analise
+    container_name: python-analise
+    ports:
+      - "5001:5000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/saude')"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks:
+      - sprintjava-net
+
+  frontend:
+    image: nginx:alpine
+    container_name: frontend
+    ports:
+      - "5500:80"
+    volumes:
+      - ./frontend/frontsprint4:/usr/share/nginx/html:ro
+    networks:
+      - sprintjava-net
+
+networks:
+  sprintjava-net:

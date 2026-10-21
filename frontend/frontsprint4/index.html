@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Análise de Transcrições • TOTVS Challenge 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">T</span>
+      <div>
+        <h1>Análise de Transcrições</h1>
+        <p>2026 • Data Science </p>
+      </div>
+    </div>
+    <span id="modeBadge" class="badge" role="status"></span>
+  </header>
+
+  <main class="layout">
+    <section class="card input-card" aria-labelledby="inTitle">
+      <h2 id="inTitle">Nova transcrição</h2>
+      <p class="hint">Cole o texto da conversa com o cliente. O sistema identifica produto, sentimento, risco de churn e oportunidade comercial.</p>
+
+      <div id="dropzone" class="dropzone">
+        <input id="fileInput" type="file" accept=".json,application/json" hidden>
+        <button id="btnArquivo" class="btn ghost" type="button">Carregar reunião (.json)</button>
+        <span class="muted">ou arraste o arquivo aqui</span>
+        <span id="fileName" class="file-name" hidden></span>
+      </div>
+
+      <label for="texto" class="sr-only">Transcrição</label>
+      <textarea id="texto" rows="12" maxlength="200000"
+        placeholder="Ex.: Cliente relatou lentidão no Protheus e comentou que está avaliando outro fornecedor..."></textarea>
+      <div class="row between">
+        <span id="counter" class="muted">0 / 200000</span>
+        <div class="samples">
+          <span class="muted">Exemplos:</span>
+          <button type="button" class="chip" data-sample="churn">Risco de churn</button>
+          <button type="button" class="chip" data-sample="oportunidade">Oportunidade</button>
+          <button type="button" class="chip" data-sample="neutro">Neutro</button>
+        </div>
+      </div>
+
+      <div class="row actions">
+        <button id="btnAnalisar" class="btn primary" type="button">Analisar transcrição</button>
+        <button id="btnLimpar" class="btn ghost" type="button">Limpar</button>
+      </div>
+      <div id="error" class="alert error" role="alert" hidden></div>
+    </section>
+
+    <section class="card result-card" aria-labelledby="outTitle" aria-live="polite">
+      <h2 id="outTitle">Resultado</h2>
+
+      <div id="empty" class="empty">
+        <p>Nenhuma análise ainda.</p>
+        <p class="muted">Cole uma transcrição ao lado e clique em <strong>Analisar</strong>.</p>
+      </div>
+
+      <div id="loading" class="loading" hidden>
+        <div class="spinner" aria-hidden="true"></div>
+        <p>Processando transcrição…</p>
+      </div>
+
+      <div id="result" hidden>
+        <div class="grid">
+          <article class="metric">
+            <h3>Produto identificado</h3>
+            <p id="rProduto" class="value"></p>
+            <p id="rProdutoConf" class="muted"></p>
+          </article>
+          <article class="metric">
+            <h3>Sentimento</h3>
+            <p id="rSentimento" class="value"></p>
+            <div class="bar"><span id="rSentimentoBar"></span></div>
+            <p id="rSentimentoScore" class="muted"></p>
+          </article>
+          <article class="metric">
+            <h3>Risco de churn</h3>
+            <p id="rChurn" class="value"></p>
+            <div class="bar"><span id="rChurnBar"></span></div>
+            <p id="rChurnScore" class="muted"></p>
+          </article>
+          <article class="metric">
+            <h3>Oportunidade comercial</h3>
+            <p id="rOport" class="value"></p>
+            <div class="bar"><span id="rOportBar"></span></div>
+            <p id="rOportScore" class="muted"></p>
+          </article>
+        </div>
+
+        <article class="block">
+          <h3>Principais termos encontrados</h3>
+          <ul id="rTermos" class="tags"></ul>
+        </article>
+
+        <article class="block reco">
+          <h3>Recomendação de ação</h3>
+          <p id="rReco"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card history-card" aria-labelledby="hTitle">
+      <div class="row between">
+        <h2 id="hTitle">Histórico da sessão</h2>
+        <button id="btnLimparHist" class="btn ghost small" type="button">Limpar histórico</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Hora</th><th>Produto</th><th>Sentimento</th><th>Churn</th><th>Oportunidade</th><th></th></tr>
+          </thead>
+          <tbody id="histBody"></tbody>
+        </table>
+        <p id="histEmpty" class="muted">Sem análises nesta sessão.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">2026</footer>
+
+  <script src="config.js"></script>
+  <script src="mock.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,842 @@
+[
+ {
+  "texto": "Bom, iniciando a pauta de hoje, queria entender como está a usabilidade do sistema novo para a equipe financeira. Vocês conseguiram rodar o faturamento ontem?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Olha, sendo bem transparente, a lentidão extrema do RM na hora de gerar a folha de pagamento está insustentável. Se isso não for resolvido neste ciclo, a diretoria já pediu para cotarmos outras opções.",
+  "produto": "RM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A gente tem gostado bastante dos dashboards que montamos no Protheus. Ficou muito mais visual para a gestão acompanhar as metas diárias da equipe de vendas.",
+  "produto": "Protheus",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Com a fusão das duas empresas que vai acontecer no semestre que vem, o nosso volume de acessos vai dobrar. Precisamos agendar uma reunião comercial para discutir um upgrade no plano do Fluig.",
+  "produto": "Fluig",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "O suporte não atende, os chamados ficam abertos por semanas e ninguém resolve. Sinceramente, não vejo mais sentido em continuarmos pagando a mensalidade desse jeito.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Queria tirar uma dúvida técnica. Existe alguma API nativa no RM que me permita puxar o cadastro de funcionários direto para o nosso portal interno de RH?",
+  "produto": "RM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "O Fluig finalmente automatizou todo aquele fluxo de aprovação de despesas que a gente fazia por e-mail e planilha. Reduzimos o tempo de aprovação de cinco dias para apenas algumas horas.",
+  "produto": "Fluig",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A gente vai inaugurar três novos centros de distribuição até dezembro. Vocês teriam alguma solução de WMS integrada ao Protheus para a gente avaliar uma implementação?",
+  "produto": "Protheus",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Pessoal, só um aviso rápido: a atualização do banco de dados vai acontecer na madrugada de sábado para domingo, então o sistema pode apresentar instabilidade nesse período.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Toda vez que tentamos emitir uma nota fiscal com substituição tributária no Protheus, o sistema trava e o cliente fica esperando no balcão. Nossa operação está sendo muito prejudicada e o gerente financeiro quer cancelar.",
+  "produto": "Protheus",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Nós percebemos que a equipe gasta muito tempo fazendo conciliação bancária manual. Existe algum módulo adicional que possamos contratar para automatizar isso?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "A implementação do RM foi dolorosa no começo, mas agora que parametrizamos tudo certinho, o fechamento contábil está saindo redondo, sem dor de cabeça.",
+  "produto": "RM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Se a próxima versão não trouxer a correção do bug na impressão de etiquetas, infelizmente vamos ter que descontinuar a ferramenta. Já estamos tomando multas por causa disso.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Vocês estão me ouvindo bem? Minha internet deu uma oscilada aqui. Deixa eu compartilhar a minha tela novamente.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Estamos muito satisfeitos com a flexibilidade do Fluig. Inclusive, estamos avaliando expandir o uso dele para a nossa área de qualidade, criando novos formulários. Podem me mandar uma proposta de licenças extras?",
+  "produto": "Fluig",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "A renovação do contrato do Protheus está suspensa até que vocês resolvam os chamados críticos que estão abertos desde o mês passado.",
+  "produto": "Protheus",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Estamos perdendo vendas porque o sistema cai direto. A diretoria já está cotando com o concorrente para trocar tudo.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Se o e-Social não rodar liso no RM esse mês, vamos encerrar a parceria de vez. Não dá para tomar multa do governo por erro da plataforma.",
+  "produto": "RM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "O Fluig sai do ar toda sexta-feira. Falei com o nosso jurídico hoje de manhã para avaliar as multas rescisórias do contrato.",
+  "produto": "Fluig",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A nossa paciência acabou, os bugs continuam os mesmos. Vou pedir formalmente a quebra de contrato amanhã.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Esses erros no módulo de faturamento do Protheus estão inviabilizando a operação logística. Se não arrumar urgente, a gente cancela.",
+  "produto": "Protheus",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Sinceramente, não vejo evolução no RM ao longo deste ano. A SAP já nos fez uma proposta comercial agressiva e estamos inclinados a aceitar.",
+  "produto": "RM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Não aguentamos mais. Os fluxos de aprovação sumiram do Fluig de novo. Vamos descontinuar essa ferramenta.",
+  "produto": "Fluig",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Vamos abrir mais 10 lojas no Nordeste no semestre que vem. Queria cotar a implantação do Protheus nessas novas filiais.",
+  "produto": "Protheus",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Temos interesse naquele módulo de BI novo que vocês lançaram. Conseguem marcar uma agenda para apresentar para a nossa equipe?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "O Fluig atendeu tão bem nossa área de RH que queremos expandir os processos para o financeiro. Mandem o orçamento de novas licenças.",
+  "produto": "Fluig",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Nosso departamento pessoal dobrou de tamanho com a aquisição da outra empresa. Quantos usuários a mais a gente precisa comprar pro RM?",
+  "produto": "RM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "A diretoria aprovou o budget para automação de gestão de frota. O Protheus tem algum add-on nativo para isso?",
+  "produto": "Protheus",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Existe alguma consultoria de vocês para nos ajudar a mapear e otimizar nossos processos internos? Temos verba para contratar.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "O diretor quer implementar um portal de fornecedores do zero. O Fluig consegue fazer isso ou é um serviço cobrado à parte?",
+  "produto": "Fluig",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "O processo de implantação fluiu tão bem que agora queremos cotar também o módulo de contabilidade e fiscal do RM.",
+  "produto": "RM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Ficamos sabendo do aplicativo mobile de vocês para a equipe de vendas de rua, gostaríamos de um orçamento detalhado.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "O treinamento que tivemos do Protheus foi simplesmente excelente. O pessoal já pegou o jeito e a operação está rodando sozinha.",
+  "produto": "Protheus",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A virada de versão do RM no final de semana foi um sucesso, não tivemos nenhuma instabilidade hoje pela manhã.",
+  "produto": "RM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A usabilidade da nova interface do Fluig ficou muito boa, os gestores elogiaram bastante o layout mais limpo.",
+  "produto": "Fluig",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Gostei muito da agilidade no atendimento do último chamado técnico. Resolveram o nosso problema no banco de dados em menos de meia hora.",
+  "produto": "NENHUM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A parametrização que o consultor fez no Protheus ontem salvou a nossa vida na hora do fechamento. O tempo do processo caiu pela metade.",
+  "produto": "Protheus",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "O portal do funcionário no RM tá funcionando muito bem, reduziu drasticamente as filas de dúvidas lá no RH.",
+  "produto": "RM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Os novos formulários do Fluig ficaram super dinâmicos. Vocês mandaram muito bem nessa última entrega da sprint.",
+  "produto": "Fluig",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A rotina de cálculo do Protheus demorou 3 horas hoje. Assim fica impossível fechar o mês no prazo, preciso que vejam a performance disso logo.",
+  "produto": "Protheus",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Tem alguma coisa errada no relatório 15. Os totais não batem com o que vejo na tela do sistema, arrumem isso urgente.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Estou desde ontem tentando aprovar um documento de compra no Fluig e ele fica dando erro 500 na tela. Muito frustrante.",
+  "produto": "Fluig",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A atualização de ontem à noite quebrou o portal do RM. Nenhum funcionário está conseguindo bater o ponto online hoje.",
+  "produto": "RM",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "O suporte demorou 3 dias úteis para responder um chamado de nível crítico. Isso é inaceitável para o tamanho da nossa operação.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Essa tela nova do Protheus ficou muito confusa. O usuário precisa dar 10 cliques a mais para conseguir faturar uma simples venda.",
+  "produto": "Protheus",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Estamos tendo muito retrabalho com o Fluig porque os campos obrigatórios não estão validando o CPF direito.",
+  "produto": "Fluig",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Toda vez que a gente roda o cálculo de férias no RM, ele calcula o DSR errado e dá dor de cabeça no passivo trabalhista.",
+  "produto": "RM",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "O consultor faltou a reunião de alinhamento e nem avisou. A gente perdeu a manhã inteira da equipe esperando ele.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Como faço para cadastrar um novo centro de custo no Protheus? Não achei a tela no novo menu.",
+  "produto": "Protheus",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Vocês podem me mandar o PDF com a documentação técnica da API de integração até o final do dia?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "No RM, qual é o caminho correto para tirar o extrato de horas extras consolidadas dos funcionários terceirizados?",
+  "produto": "RM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Preciso que alguém do suporte me ajude a resetar a senha do perfil administrador lá no painel do Fluig.",
+  "produto": "Fluig",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A reunião de acompanhamento de projeto da semana que vem pode ser reagendada para a terça-feira às 14h?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Onde eu configuro os parâmetros de retenção de impostos dentro do faturamento do Protheus?",
+  "produto": "Protheus",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Estamos subindo o ambiente de homologação. O banco de dados do RM precisa estar em qual versão do SQL Server?",
+  "produto": "RM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Tem algum limite de tamanho de arquivo anexo para enviar PDFs grandes lá nos processos de aprovação do Fluig?",
+  "produto": "Fluig",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Eu baixei o arquivo de log do erro, para qual e-mail do suporte N2 eu devo mandar para análise técnica?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Só confirmando, a entrega das funcionalidades da sprint 3 ficou mantida para a próxima sexta-feira mesmo, certo?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Opa, bom dia pessoal. Vamos esperar mais cinco minutinhos em silêncio para ver se o resto da diretoria entra.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Acho que meu microfone estava no mudo. Vocês conseguem me ouvir bem agora?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Acho que a conexão da Maria caiu, a imagem dela estava congelando desde o começo da call.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Desculpem o atraso, estava em uma outra call com cliente que se estendeu um pouco mais do que devia.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Vou compartilhar a minha tela inteira aqui, me avisem, por favor, quando estiver aparecendo o slide para vocês.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Beleza, tudo anotado. Vou mandar um resumo com a ata da reunião e as tarefas por e-mail no final do dia.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Podemos pular esse tópico comercial agora e voltar nele no final da pauta técnica, se der tempo.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A câmera do meu notebook deu problema, então vou ficar só no áudio hoje, tudo bem para vocês?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Pessoal, preciso dar uma saída rápida de 2 minutos para pegar uma água e já volto.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Então fechado. Sem mais dúvidas. Muito obrigado pelo tempo de todos e um excelente final de semana!",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A diretoria de Portugal adorou o desempenho, e querem colocar o RM em todas as unidades europeias. Vamos precisar desenhar um escopo juntos.",
+  "produto": "RM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Se vocês não entregarem a customização do Protheus no prazo prometido, a cláusula de quebra vai ser ativada e vamos buscar outro parceiro integrador.",
+  "produto": "Protheus",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Temos um processo de admissão enorme que ainda é 100% no papel. A gente consegue migrar todo esse workflow para o Fluig com assinatura digital?",
+  "produto": "Fluig",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Depois do deploy de ontem, os relatórios ficaram super rápidos. Muito bom o trabalho de refatoração que o time de vocês entregou.",
+  "produto": "NENHUM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Nossa operação logística tá sofrendo muito. O sistema engasga no pico. O dono da transportadora já avisou que vai cancelar tudo se a nuvem não estabilizar.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Gostaria de agendar uma demonstração do Protheus para a nossa matriz. Eles estão procurando um ERP corporativo robusto para o ano que vem.",
+  "produto": "Protheus",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Não quero nem saber de desculpa técnica. Se a base do RM corromper de novo, vocês podem considerar nosso contrato cancelado sumariamente.",
+  "produto": "RM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A equipe de marketing tá pedindo para criarmos um portal do cliente usando as páginas do Fluig. Dá pra marcar um call para dimensionar o custo disso?",
+  "produto": "Fluig",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Parabéns para o analista João, o suporte dele no Protheus ontem foi impecável e muito resolutivo.",
+  "produto": "Protheus",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Estou enviando o convite para a reunião de alinhamento quinzenal no Teams, por favor aceitem para bloquear a agenda.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A gente identificou no mercado um software concorrente que custa metade do preço. Ou vocês dão desconto na renovação, ou vamos trocar o sistema.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A nova atualização trouxe exatamente a feature que a gente precisava no RM. Ajudou demais o pessoal da contabilidade.",
+  "produto": "RM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Já é a terceira vez no mês que o portal de compras sai do ar. Se essa instabilidade continuar, vamos ter que reavaliar seriamente nosso contrato.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "O módulo de folha do RM facilitou demais o envio das guias para a matriz. O trabalho que demorava dias agora sai em minutos.",
+  "produto": "RM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Temos um budget aprovado para integrar a nossa plataforma de e-commerce ao Protheus. Precisamos marcar uma reunião para entender o custo dessa API.",
+  "produto": "Protheus",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "A usabilidade do Fluig piorou muito na última versão. Os usuários estão reclamando o tempo todo de lentidão na hora de carregar os widgets da home.",
+  "produto": "Fluig",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Bom dia, pessoal. Vou passar a palavra para o nosso líder técnico apresentar os resultados da última sprint.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Se não tivermos uma redução nos custos de licenciamento na próxima renovação, a nossa diretoria global já nos autorizou a migrar para o concorrente.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A aprovação de despesas de viagem ficou excelente. A mobilidade que o app do Fluig trouxe evitou o gargalo que tínhamos na diretoria.",
+  "produto": "Fluig",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Estamos abrindo uma nova unidade fabril no sul do país. Precisamos expandir o uso do Protheus para a manufatura. Teriam como desenhar essa arquitetura para nós?",
+  "produto": "Protheus",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Não consegui rodar a integração contábil. Sempre que tento consolidar as notas de devolução, o RM apresenta um erro de chave estrangeira.",
+  "produto": "RM",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Vocês estão vendo o arquivo que mandei no chat? Ali tem o print do erro que estamos recebendo.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Vocês tem alguma solução pronta de controle de ponto mobile? O nosso sistema atual não atende a equipe externa e precisamos trocar até o fim do semestre.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Nós estamos avaliando o cancelamento da consultoria de suporte. Os problemas demoram mais para serem resolvidos hoje do que quando não tínhamos o serviço.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Foi uma implantação muito difícil, mas agora que parametrizamos o Protheus inteiro, os fechamentos contábeis estão batendo centavo por centavo.",
+  "produto": "Protheus",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A gente queria começar a usar o Fluig para estruturar os nossos processos de TI. Quais são as opções de treinamento *in company* que vocês oferecem?",
+  "produto": "Fluig",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Esse erro de cálculo de impostos federais no RM está nos expondo a multas milionárias da Receita Federal. Ou isso entra como prioridade absoluta, ou é distrato.",
+  "produto": "RM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Pessoal, tem um cachorro latindo muito no fundo do áudio de alguém. Poderiam mutar o microfone por gentileza?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Nós fechamos a compra de um hospital na região metropolitana. Como funciona o aditivo de contrato para escalar o RM Saúde para essa nova operação?",
+  "produto": "RM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "A integração está funcionando incrivelmente bem, a consistência dos dados de estoque com a plataforma de vendas está 100% perfeita.",
+  "produto": "NENHUM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "O banco de dados do Protheus corrompeu dois índices na atualização dessa noite. Estamos parados, preciso que o suporte aja como prioridade P1.",
+  "produto": "Protheus",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Estou enviando o link de gravação dessa reunião por e-mail agora. Qualquer dúvida, é só me responder por lá.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Existe algum plano de migrar os formulários legados do Fluig para um padrão mais moderno? Estamos achando a experiência do usuário muito ultrapassada.",
+  "produto": "Fluig",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Gostamos muito da demo apresentada ontem. Acho que tem total aderência com o que buscamos. Mandem a proposta comercial atualizada.",
+  "produto": "NENHUM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Os consultores que implementaram o projeto não estão conseguindo documentar o que foi feito. Isso é inadmissível em um projeto desse porte.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Meu CEO foi muito claro: se o painel de faturamento não estiver rodando no Protheus até sexta, ele não assina a renovação e vamos para concorrência.",
+  "produto": "Protheus",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Existe como exportar essas visões gerenciais do RM diretamente para o PowerBI ou precisamos construir um extrator customizado?",
+  "produto": "RM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "O novo fluxo automatizou todo o nosso *onboarding* de colaboradores. O RH reduziu em 80% o uso de papel graças ao Fluig.",
+  "produto": "Fluig",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Com a aquisição de novas frotas, vamos precisar controlar a manutenção preventiva. Tem alguma solução no sistema voltada para gestão de ativos?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "A gente está operando no escuro porque os painéis não carregam os dados financeiros. Resolver isso urgente ou peço o bloqueio do pagamento da fatura desse mês.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Pessoal, desculpa interromper, mas quem for apresentar depois do almoço pode mandar a apresentação antes por e-mail?",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "O trabalho de vocês na migração de dados antigos para o RM foi sensacional. Não perdemos nenhuma informação de histórico dos funcionários.",
+  "produto": "RM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Preciso orçar a inclusão do módulo fiscal no nosso ambiente do Protheus. A gente estava usando uma solução terceira e queremos centralizar no ERP.",
+  "produto": "Protheus",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Tem uma atualização pendente há três semanas no portal e o suporte fala que estão analisando. Enquanto isso minha operação fica engessada.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Existe algum *template* pronto no Fluig para aprovação de solicitações de viagens internacionais? Quero ver as opções antes de começar do zero.",
+  "produto": "Fluig",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Ficou muito ágil rodar o apontamento de horas na obra usando o módulo de projetos do Protheus.",
+  "produto": "Protheus",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Isso de fato atende nosso comitê executivo. A gente vai seguir em frente com as compras de licença extras, pode enviar o aditivo.",
+  "produto": "NENHUM",
+  "sentimento": "POSITIVO",
+  "churn": 0,
+  "oportunidade": 1
+ },
+ {
+  "texto": "Essa inconsistência na base de dados de alunos me faz questionar a viabilidade do RM Educacional para a nossa faculdade. Já acionei os advogados.",
+  "produto": "RM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Vou criar o link da reunião recorrente para o *status report* do projeto e mando os convites pelo Outlook.",
+  "produto": "NENHUM",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Não quero mais perder tempo com reuniões sobre os mesmos bugs do Fluig. É a última tentativa antes do distrato amigável.",
+  "produto": "Fluig",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "A gente já está estudando migrar o sistema de lojas para o concorrente por conta dessas indisponibilidades em finais de semana, que é nosso pico de vendas.",
+  "produto": "NENHUM",
+  "sentimento": "NEGATIVO",
+  "churn": 1,
+  "oportunidade": 0
+ },
+ {
+  "texto": "Nós precisamos emitir documentos fiscais no exterior a partir de julho. O Protheus tem localização nativa para o México, ou a gente vai ter que comprar algo por fora?",
+  "produto": "Protheus",
+  "sentimento": "NEUTRO",
+  "churn": 0,
+  "oportunidade": 1
+ }
+]

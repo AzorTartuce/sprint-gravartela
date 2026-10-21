@@ -1,0 +1,63 @@
+{
+"titulo_reuniao": "Comitê Comercial - Q3",
+"data": "2026-10-21",
+"texto_completo": "Bom dia, pessoal. Todos me ouvem bem? Vamos dar início à nossa reunião de alinhamento do trimestre. A pauta hoje é avaliar a aceitação dos nossos novos módulos e entender como o mercado está reagindo à nossa última grande entrega. Ana, como estão os números na sua carteira? Bom dia, João. Pessoal. Do meu lado, a recepção do novo módulo de Inteligência Artificial do Protheus foi fantástica. A funcionalidade de previsão de ruptura de estoque deixou os clientes impressionados. O diretor da rede SuperMax me ligou ontem para agradecer, disse que a integração ficou excelente e que a equipe ganhou muito tempo na operação. Excelente, Ana. Isso mostra que o investimento na nova arquitetura do Protheus está dando frutos. Mas e os gargalos? O que você tem ouvido de pontos críticos? Aí é que está o problema. O Protheus está ótimo, mas a parte de portais internos não está acompanhando. Tenho o grupo varejista MegaStore reclamando muito. Já estamos cansados das falhas constantes de lentidão no Fluig deles. A diretoria inclusive já começou a avaliar ferramentas da concorrência para a parte de ECM. Aproveitando o gancho da Ana, eu tenho um cenário muito parecido, mas mais grave na minha frente. O cliente Indústrias Apex está em um momento crítico. Sendo bem transparente, a lentidão extrema do RM na hora de gerar a folha de pagamento está insustentável para eles. A SAP já nos fez uma proposta comercial agressiva para trocar todo o ERP da Apex, e eles estão inclinados a aceitar. Isso é gravíssimo, Carlos. A SAP tem atacado nossa base instalada com agressividade. Se o erro de cálculo na folha do RM não for corrigido definitivamente até o final deste mês, vamos cancelar o contrato, foi o que o CEO deles me disse por e-mail hoje cedo. Exato. Eu já acionei o suporte nível 3 como P1. Mas, mudando para uma notícia melhor: a Apex comprou duas novas fábricas no Paraná. Opa, isso muda a figura. Sim. Eu perguntei se eles teriam alguma solução focada em WMS (Gestão de Armazéns) para nos apresentar, e deixei claro que se estabilizarmos o RM, temos o caminho aberto para vender o WMS nativo. Eles vão precisar integrar as fábricas. Na minha carteira também tem oportunidade. A rede SuperMax, aquela que elogiou a IA, quer expandir. Eles disseram que estamos muito satisfeitos com o suporte atual, e como vamos abrir uma nova filial, precisaremos de mais 15 licenças do Protheus. Ótimo. Então o plano de ação é: Carlos, foca 100% em segurar a Apex e resolver o bug do RM para bloquear a SAP e tentar emplacar esse WMS. Ana, pode mandar o aditivo das 15 licenças do Protheus para a SuperMax hoje mesmo. Vou pedir para a área técnica olhar os servidores do Fluig da MegaStore urgente. Pessoal, mais alguma pauta? Da minha parte é só isso. Sem mais pendências aqui. Então fechado. Sem mais dúvidas. Muito obrigado pelo tempo de todos e um excelente final de semana!",
+"dialogos": [
+{
+"orador": "João",
+"texto": "Bom dia, pessoal. Todos me ouvem bem? Vamos dar início à nossa reunião de alinhamento do trimestre. A pauta hoje é avaliar a aceitação dos nossos novos módulos e entender como o mercado está reagindo à nossa última grande entrega. Ana, como estão os números na sua carteira?"
+},
+{
+"orador": "Ana",
+"texto": "Bom dia, João. Pessoal. Do meu lado, a recepção do novo módulo de Inteligência Artificial do Protheus foi fantástica. A funcionalidade de previsão de ruptura de estoque deixou os clientes impressionados. O diretor da rede SuperMax me ligou ontem para agradecer, disse que a integração ficou excelente e que a equipe ganhou muito tempo na operação."
+},
+{
+"orador": "João",
+"texto": "Excelente, Ana. Isso mostra que o investimento na nova arquitetura do Protheus está dando frutos. Mas e os gargalos? O que você tem ouvido de pontos críticos?"
+},
+{
+"orador": "Ana",
+"texto": "Aí é que está o problema. O Protheus está ótimo, mas a parte de portais internos não está acompanhando. Tenho o grupo varejista MegaStore reclamando muito. Já estamos cansados das falhas constantes de lentidão no Fluig deles. A diretoria inclusive já começou a avaliar ferramentas da concorrência para a parte de ECM."
+},
+{
+"orador": "Carlos",
+"texto": "Aproveitando o gancho da Ana, eu tenho um cenário muito parecido, mas mais grave na minha frente. O cliente Indústrias Apex está em um momento crítico. Sendo bem transparente, a lentidão extrema do RM na hora de gerar a folha de pagamento está insustentável para eles. A SAP já nos fez uma proposta comercial agressiva para trocar todo o ERP da Apex, e eles estão inclinados a aceitar."
+},
+{
+"orador": "João",
+"texto": "Isso é gravíssimo, Carlos. A SAP tem atacado nossa base instalada com agressividade. Se o erro de cálculo na folha do RM não for corrigido definitivamente até o final deste mês, vamos cancelar o contrato, foi o que o CEO deles me disse por e-mail hoje cedo."
+},
+{
+"orador": "Carlos",
+"texto": "Exato. Eu já acionei o suporte nível 3 como P1. Mas, mudando para uma notícia melhor: a Apex comprou duas novas fábricas no Paraná."
+},
+{
+"orador": "João",
+"texto": "Opa, isso muda a figura."
+},
+{
+"orador": "Carlos",
+"texto": "Sim. Eu perguntei se eles teriam alguma solução focada em WMS (Gestão de Armazéns) para nos apresentar, e deixei claro que se estabilizarmos o RM, temos o caminho aberto para vender o WMS nativo. Eles vão precisar integrar as fábricas."
+},
+{
+"orador": "Ana",
+"texto": "Na minha carteira também tem oportunidade. A rede SuperMax, aquela que elogiou a IA, quer expandir. Eles disseram que estamos muito satisfeitos com o suporte atual, e como vamos abrir uma nova filial, precisaremos de mais 15 licenças do Protheus."
+},
+{
+"orador": "João",
+"texto": "Ótimo. Então o plano de ação é: Carlos, foca 100% em segurar a Apex e resolver o bug do RM para bloquear a SAP e tentar emplacar esse WMS. Ana, pode mandar o aditivo das 15 licenças do Protheus para a SuperMax hoje mesmo. Vou pedir para a área técnica olhar os servidores do Fluig da MegaStore urgente. Pessoal, mais alguma pauta?"
+},
+{
+"orador": "Ana",
+"texto": "Da minha parte é só isso."
+},
+{
+"orador": "Carlos",
+"texto": "Sem mais pendências aqui."
+},
+{
+"orador": "João",
+"texto": "Então fechado. Sem mais dúvidas. Muito obrigado pelo tempo de todos e um excelente final de semana!"
+}
+]
+}
